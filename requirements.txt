@@ -1,0 +1,11 @@
+Django==2.1
+mysql-connector-python==8.0.5
+git+https://github.com/BRAConsultoria/RinzlerBase@1.44.0#egg=onyxerp
+rinzler==1.23.0
+mongoengine==0.15.0
+gevent==1.2.2
+gunicorn==19.7.1
+setproctitle==1.1.10
+tavern==0.9.3
+coloredlogs==10.0
+channels==2.1.7
