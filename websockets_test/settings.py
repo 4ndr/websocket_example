@@ -95,8 +95,7 @@ CONFIG = {
     # Rotas sem autenticação
     "JWT_ROUTES_WHITE_LIST": [
         "GET_chat/",
-        "GET_chat/{room_name}/",
-        "GET_v2/data/{app_id}/",
+        "GET_chat/{room_name}/"
     ],
 
     # Rotas que podem ser acessadas com token de app
@@ -106,19 +105,6 @@ CONFIG = {
 
     # Path do cache
     "CACHE_PATH": ENV_VARS['CACHE_PATH'],
-
-    # Urls de outros APIs do OnyxERP
-    "URL_APP_API": f"https://app-api-v2{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_AUTH_API": f"https://auth-api-v2{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_ACCOUNT_API": f"https://account-api-v2{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_SOCIAL_API": f"http://social-api-v2{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_UFCIDADE_API": f"https://ufcidade-api{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_STORAGE_API": f"https://storage-api{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_META_API": f"https://meta-api{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_SMS_API": f"https://sms-api{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_GOV_API": f"https://gov-api{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_GOVERNANCA_API": f"http://governanca-api{ENV_VARS['ENV']}.onyxapis.com",
-    "URL_BIO_API": f"https://biometria-api{ENV_VARS['ENV']}.onyxapis.com",
 
     # MongoDB credentials
     "MONGODB": {

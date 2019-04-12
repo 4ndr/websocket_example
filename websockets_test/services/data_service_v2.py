@@ -4,8 +4,6 @@ from django.shortcuts import render
 from django.utils.safestring import mark_safe
 from onyxerp.core.services.base_service import BaseService
 
-from websockets_test.models.test import TestModel
-
 
 class DataServiceV2(BaseService):
     """
