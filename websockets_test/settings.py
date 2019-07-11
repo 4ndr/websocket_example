@@ -106,6 +106,8 @@ CONFIG = {
     # Path do cache
     "CACHE_PATH": ENV_VARS['CACHE_PATH'],
 
+    "URL_APP_API": "localhost",
+
     # MongoDB credentials
     "MONGODB": {
         "default": {
