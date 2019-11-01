@@ -1,4 +1,4 @@
-Django==2.1
+Django==2.1.11
 mysql-connector-python==8.0.5
 git+https://github.com/BRAConsultoria/RinzlerBase@1.44.0#egg=onyxerp
 rinzler==1.23.0
