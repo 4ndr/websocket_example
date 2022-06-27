@@ -1,5 +1,5 @@
 Django==2.1
-mysql-connector-python==8.0.5
+mysql-connector-python==8.0.14
 git+https://github.com/BRAConsultoria/RinzlerBase@1.44.0#egg=onyxerp
 rinzler==1.23.0
 mongoengine==0.15.0
